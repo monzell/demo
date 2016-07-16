@@ -15,6 +15,7 @@ end
 sequence = 1000000
 longest_term = 0
 term_term = 0
+
 1.upto(sequence) do | n |
   count = 0
   count_max = calculate(n,count)
